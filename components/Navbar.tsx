@@ -9,7 +9,7 @@ export default function Navbar() {
     {name: "Contact", href:"/contact"}
   ]
   return (
-    <nav className="fixed h-16 top-0 w-full flex justify-between items-center p-4 bg-secondary shadow-md z-50">
+    <nav className="fixed h-16 top-0 w-full flex justify-between items-center p-4 /80 backdrop-blur-md shadow-md z-50">
       <div className="text-2xl font-bold text-white">Allen Burias</div>
 
       <div className="flex items-center gap-6">
