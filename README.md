@@ -25,7 +25,7 @@ A personal portfolio website built with Next.js and Tailwind CSS.
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/raimeii/portfolio.git
 cd portfolio
 
 # Install dependencies
