@@ -9,7 +9,7 @@ export default function Navbar() {
     {name: "Contact", href:"/contact"}
   ]
   return (
-    <nav className="fixed h-16 top-0 w-full flex justify-between items-center p-4 backdrop-blur-md shadow-md z-50">
+    <nav className="fixed h-16 top-0 w-full flex justify-between items-center p-4 bg-secondary shadow-md z-50">
       <div className="text-2xl font-bold text-white">Allen Burias</div>
 
       <div className="flex items-center gap-6">
@@ -17,13 +17,12 @@ export default function Navbar() {
           <Link
             key={link.name}
             href={link.href}
-            className="text-xl hover:text-blue-500 transition-colors"
+            className="text-xl text-white hover:text-primary"
           >
             {link.name}
           </Link>
         ))}
       </div>
     </nav>
-
   );
 }
