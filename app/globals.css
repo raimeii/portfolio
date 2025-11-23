@@ -1,14 +1,20 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #FF6363;
-  --color-secondary: #3A86FF;
-  --color-background: #F5F5F5;
+  --color-primary: #992E3C;
+  --color-secondary: #BF6B76;
+  --color-background: #3A1A1F;
+  --color-text: #F7E8E8;
 }
 
-/* Optional: fonts */
 body {
-  @apply font-sans antialiased bg-background text-primary;
+  @apply font-sans antialiased 
+         text-[--color-text]
+         bg-gradient-to-b 
+         from-[#1f0f0f] 
+         to-[#5a1f1f];
 }
 
-
+h1, h2, h3 {
+  @apply text-[--color-text-soft];
+}
