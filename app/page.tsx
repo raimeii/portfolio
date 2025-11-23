@@ -36,7 +36,7 @@ export default function Home() {
             </div>
 
             <div className="flex-1">
-              <h4 className="text-xl font-semibold text-text pb-2">Interest</h4>
+              <h4 className="text-xl font-semibold text-text pb-2">Interests</h4>
               <p className="text-text text-left space-y-1">
                 <span><strong>Model kits:</strong>&nbsp;Building and painting Gundam model kits. Big fan of Char Aznable&apos;s mobile suits, Universal Century, and Cosmic Era kits.</span><br />
                 <span><strong>Trading Card Games:</strong>&nbsp;Primarily playing the Gundam Trading Card game, but I previously played the One Piece Trading Card Game, Flesh and Blood, and Magic: the Gathering in a competitive level.</span><br />
