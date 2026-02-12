@@ -7,7 +7,7 @@ A personal portfolio website built with Next.js and Tailwind CSS.
 ## Features
 
 * Responsive homepage and projects showcase
-* Blog section
+* Gunpla blog
 * Contact info
 * Dark/light mode support (optional)
 
@@ -17,7 +17,8 @@ A personal portfolio website built with Next.js and Tailwind CSS.
 
 * Next.js
 * Tailwind CSS
-* TypeScript (optional)
+* TypeScript
+* Supabase
 
 ---
 
