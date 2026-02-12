@@ -9,7 +9,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="fixed bottom-0 w-full flex justify-center items-center p-4 backdrop-blur-md shadow-md z-50">
+    <footer className="sticky bottom-0 w-full flex justify-center items-center p-4 backdrop-blur-md shadow-md z-50">
       <div className="flex items-center gap-6">
         {socialLinks.map((link) => (
           <a

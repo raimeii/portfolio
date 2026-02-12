@@ -10,7 +10,7 @@ export default function Navbar() {
     {name: "Contact", href:"/contact"}
   ]
   return (
-    <nav className="fixed h-16 top-0 w-full flex justify-between items-center p-4 backdrop-blur-md shadow-md z-50">
+    <nav className="sticky h-16 top-0 w-full flex justify-between items-center p-4 backdrop-blur-md shadow-md z-50">
       <div className=" flex items-center gap-2">
         <div className="rounded-xl overflow-hidden">
           <Image
